@@ -1,3 +1,17 @@
+import os
+import sys
+
+# Version and Metadata
+VERSION = "1.1.0"
+AUTHOR = "Gidy"
+LOCATION = os.getcwd()
+
+print(f"--- Cybersecurity Auditor v{VERSION} ---")
+print(f"--- Author: {AUTHOR} ---")
+print(f"--- Current Scan Directory: {LOCATION} ---")
+print("-" * 40)
+
+# Your existing audit code goes here...
 import subprocess
 import datetime
 
