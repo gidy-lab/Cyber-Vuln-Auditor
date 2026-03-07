@@ -3,4 +3,6 @@ hello.c
 hello.cpp
 hello
 hello_cpp
-.vscode/
+.vscode/.env
+venv/
+*.md
